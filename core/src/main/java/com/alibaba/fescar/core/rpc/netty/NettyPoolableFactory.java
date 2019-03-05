@@ -33,7 +33,7 @@ import org.slf4j.LoggerFactory;
  * The type Netty key poolable factory.
  *
  * @Author: jimin.jm @alibaba-inc.com
- * @Project: fescar-all
+ * @Project: fescar -all
  * @DateTime: 2018 /11/19 15:14
  * @FileName: NettyPoolableFactory
  * @Description:
@@ -84,7 +84,7 @@ public class NettyPoolableFactory implements KeyedPoolableObjectFactory<NettyPoo
         }
         if (LOGGER.isInfoEnabled()) {
             LOGGER.info(
-                "register sucesss, cost " + (System.currentTimeMillis() - start) + " ms, version:"
+                "register success, cost " + (System.currentTimeMillis() - start) + " ms, version:"
                     + getVersion(response, key.getTransactionRole()) + ",role:" + key.getTransactionRole().name()
                     + ",channel:" + channelToServer);
         }

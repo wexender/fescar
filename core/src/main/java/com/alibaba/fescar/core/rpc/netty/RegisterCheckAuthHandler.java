@@ -23,7 +23,7 @@ import com.alibaba.fescar.core.protocol.RegisterTMRequest;
  * The interface Register check auth handler.
  *
  * @Author: jimin.jm @alibaba-inc.com
- * @Project: fescar-all
+ * @Project: fescar -all
  * @DateTime: 2018 /12/7 16:56
  * @FileName: RegisterCheckAuthHandler
  * @Description:
@@ -39,10 +39,10 @@ public interface RegisterCheckAuthHandler {
     boolean regTransactionManagerCheckAuth(RegisterTMRequest request);
 
     /**
-     * Reg resource manager chec k auth boolean.
+     * Reg resource manager check auth boolean.
      *
      * @param request the request
      * @return the boolean
      */
-    boolean regResourceManagerChecKAuth(RegisterRMRequest request);
+    boolean regResourceManagerCheckAuth(RegisterRMRequest request);
 }
